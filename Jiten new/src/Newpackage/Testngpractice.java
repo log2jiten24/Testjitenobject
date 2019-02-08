@@ -77,7 +77,7 @@ public class Testngpractice {
    @AfterTest
    public void close () {
 	//close the browser 
-	 //driver.quit();	   
+	driver.quit();	   
 	   
    }
    
