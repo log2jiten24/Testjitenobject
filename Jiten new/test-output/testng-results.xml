@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-02-08T14:08:20Z" name="Default suite" finished-at="2019-02-08T14:08:30Z" duration-ms="9629">
+  <suite started-at="2019-02-10T02:02:54Z" name="Default suite" finished-at="2019-02-10T02:03:04Z" duration-ms="10059">
     <groups>
     </groups>
-    <test started-at="2019-02-08T14:08:20Z" name="Default test" finished-at="2019-02-08T14:08:30Z" duration-ms="9629">
+    <test started-at="2019-02-10T02:02:54Z" name="Default test" finished-at="2019-02-10T02:03:04Z" duration-ms="10059">
       <class name="Newpackage.Testngpractice">
-        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-09T01:08:20Z" name="launchbrowser" description="launching of browser" finished-at="2019-02-09T01:08:25Z" duration-ms="4333" status="PASS">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-10T13:02:54Z" name="launchbrowser" description="launching of browser" finished-at="2019-02-10T13:02:58Z" duration-ms="4361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method signature="openurl()[pri:1, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-09T01:08:25Z" name="openurl" description="open the url" finished-at="2019-02-09T01:08:27Z" duration-ms="2059" status="PASS">
+        <test-method signature="openurl()[pri:1, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-10T13:02:58Z" name="openurl" description="open the url" finished-at="2019-02-10T13:03:01Z" duration-ms="2437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openurl -->
-        <test-method signature="clickurl()[pri:2, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-09T01:08:27Z" name="clickurl" description="search of testing " finished-at="2019-02-09T01:08:27Z" duration-ms="594" status="PASS">
+        <test-method signature="clickurl()[pri:2, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-10T13:03:01Z" name="clickurl" description="search of testing " finished-at="2019-02-10T13:03:02Z" duration-ms="623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickurl -->
-        <test-method signature="clickontesting()[pri:3, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-09T01:08:27Z" name="clickontesting" description="click on testing definition" finished-at="2019-02-09T01:08:30Z" duration-ms="2595" status="PASS">
+        <test-method signature="clickontesting()[pri:3, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-10T13:03:02Z" name="clickontesting" description="click on testing definition" finished-at="2019-02-10T13:03:03Z" duration-ms="1924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickontesting -->
-        <test-method is-config="true" signature="close()[pri:0, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-09T01:08:30Z" name="close" finished-at="2019-02-09T01:08:30Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:Newpackage.Testngpractice@c86b9e3]" started-at="2019-02-10T13:03:03Z" name="close" finished-at="2019-02-10T13:03:04Z" duration-ms="683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
