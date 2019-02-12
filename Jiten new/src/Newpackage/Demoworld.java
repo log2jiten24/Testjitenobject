@@ -1,8 +1,11 @@
 package Newpackage;
 
+import org.testng.annotations.Test;
+
 public class Demoworld {
 
-	public static void main(String[] args) {
+	@Test
+	public void testhello() {
 		// TODO Auto-generated method stub
 		String str1 = "Jiten" ;
 		System.out.println("hello :"+str1);

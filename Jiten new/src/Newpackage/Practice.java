@@ -3,11 +3,14 @@ import java.util.HashMap;
 //
 import java.util.List;
 
+import org.testng.annotations.Test;
+
 //import java.util.stream.Stream;
 //
 public class Practice {
 //
-public static void main(String[] args) {
+	@Test
+public void testmap() {
 //		// TODO Auto-generated method stub
 //		
   System.out.println("Hello world") ;
