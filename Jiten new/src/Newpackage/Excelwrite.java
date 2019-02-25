@@ -13,9 +13,9 @@ import org.testng.annotations.Test;
 public class Excelwrite {
 	
 	@Test
-	public void excelwrite() {
+	public void excelwrite()  throws Exception{
 		
-		try {
+		
 			 // Specify the file path which you want to create or write
 			  File src=new File("E:\\excelfolder\\Demo.xlsx");
 			 // Load the file
@@ -26,34 +26,32 @@ public class Excelwrite {
 			 XSSFSheet sh1= wb.getSheetAt(0);
 			 // getRow specify which row we want to read and getCell which column
 			 System.out.println(sh1.getRow(0).getCell(0).getStringCellValue());
-			 System.out.println(sh1.getRow(0).getCell(1).getStringCellValue());
-			 System.out.println(sh1.getRow(1).getCell(0).getStringCellValue());
-			 System.out.println(sh1.getRow(1).getCell(1).getStringCellValue());
-			 System.out.println(sh1.getRow(2).getCell(0).getStringCellValue());
-			 System.out.println(sh1.getRow(2).getCell(1).getStringCellValue());
-			 // here createCell will create column
-			 // and setCellvalue will set the value
-			 sh1.getRow(0).createCell(2).setCellValue("2.41.0");
-			 sh1.getRow(1).createCell(2).setCellValue("2.5");
-			 sh1.getRow(2).createCell(2).setCellValue("2.39");
 			 
-			// here we need to specify where you want to save file
-			 FileOutputStream fout=new FileOutputStream(new File("E:\\excelfolder\\Demo.xlsx"));
-			 // finally write content 
+			 //to write the value - to create a new cell at 1st row (0th row).
 			 
-			 wb.write(fout);
+			 sh1.getRow(0).createCell(2).setCellValue("Status");
 			 
-			// close the file
+			 if (sh1.getRow(1).getCell(1).getStringCellValue().toString().equalsIgnoreCase("jeet2400")) {
+			System.out.println ("jeet2400 present");	 	 
+			 }
 			 
-			 fout.close();
+			 if (sh1.getRow(1).getCell(0).getStringCellValue().equalsIgnoreCase(sh1.getRow(1).getCell(1).getStringCellValue())) { 
+           
+			//create cell of status as Pass 
+				 sh1.getRow(1).createCell(2).setCellValue("Pass");
+			 }else {
+				 //create fail status 
+				 
+				 sh1.getRow(1).createCell(2).setCellValue("Fail");
+			 }
 			 
-			 System.out.println ("Excel writing done");
-			 
-			  } catch (Exception e) {
-			 
-			   System.out.println(e.getMessage());
-			 
-			  }	
+		FileOutputStream fout = new FileOutputStream(src) ;
+		//write the excel file 
+	    wb.write(fout);
+	    //close the excel sheet
+	   wb.close(); 
+	   
+		
 		
 	}
 
