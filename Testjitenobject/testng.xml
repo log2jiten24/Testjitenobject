@@ -3,9 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Newpackage.Excelwrite"/>
+      <class name="Newpackage.Practice"/>
       <class name="Newpackage.Testngpractice"/>
-       <class name="Newpackage.Excelwrite"/>
-       <class name="Newpackage.Practice"/>
+      <class name="Newpackage.Extentreportpractice"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

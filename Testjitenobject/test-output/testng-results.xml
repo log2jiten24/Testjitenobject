@@ -1,33 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and starting]]>
+    </line>
+    <line>
+      <![CDATA[Setting done and reporting started]]>
+    </line>
+    <line>
+      <![CDATA[Setting up reports and starting url and browser]]>
+    </line>
+    <line>
+      <![CDATA[Setting up reports and starting url and browser done ]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="5926" started-at="2019-03-02T16:19:30Z" finished-at="2019-03-02T16:19:36Z">
+  <suite name="Default suite" duration-ms="21105" started-at="2019-03-10T13:14:15Z" finished-at="2019-03-10T13:14:36Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5926" started-at="2019-03-02T16:19:30Z" finished-at="2019-03-02T16:19:36Z">
-      <class name="Newpackage.Testngpractice">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Newpackage.Testngpractice@5c7fa833]" name="launchbrowser" is-config="true" duration-ms="4380" started-at="2019-03-03T03:19:30Z" description="launching of browser" finished-at="2019-03-03T03:19:35Z">
+    <test name="Default test" duration-ms="21105" started-at="2019-03-10T13:14:15Z" finished-at="2019-03-10T13:14:36Z">
+      <class name="Newpackage.Extentreports">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Newpackage.Extentreports@3bfdc050]" name="setup" is-config="true" duration-ms="507" started-at="2019-03-11T00:14:14Z" description="launching extent report" finished-at="2019-03-11T00:14:15Z">
           <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and starting]]>
+            </line>
+            <line>
+              <![CDATA[Setting done and reporting started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:Newpackage.Extentreports@3bfdc050]" name="launchbrowser" is-config="true" duration-ms="4527" started-at="2019-03-11T00:14:15Z" description="launching of  chrome browser" finished-at="2019-03-11T00:14:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and starting url and browser]]>
+            </line>
+            <line>
+              <![CDATA[Setting up reports and starting url and browser done ]]>
+            </line>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Newpackage.Testngpractice@5c7fa833]" name="close" is-config="true" duration-ms="647" started-at="2019-03-03T03:19:36Z" finished-at="2019-03-03T03:19:36Z">
+        <test-method status="PASS" signature="openurl()[pri:1, instance:Newpackage.Extentreports@3bfdc050]" name="openurl" duration-ms="4350" started-at="2019-03-11T00:14:19Z" description="open orange hrm page" finished-at="2019-03-11T00:14:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- Newpackage.Testngpractice -->
-      <class name="Newpackage.Practice">
-        <test-method status="PASS" signature="testmap()[pri:0, instance:Newpackage.Practice@724af044]" name="testmap" duration-ms="5" started-at="2019-03-03T03:19:36Z" finished-at="2019-03-03T03:19:36Z">
+        </test-method> <!-- openurl -->
+        <test-method status="PASS" signature="addextentreport(org.testng.ITestResult)[pri:0, instance:Newpackage.Extentreports@3bfdc050]" name="addextentreport" is-config="true" duration-ms="859" started-at="2019-03-11T00:14:23Z" finished-at="2019-03-11T00:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openurl status=SUCCESS method=Extentreports.openurl()[pri:1, instance:Newpackage.Extentreports@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testmap -->
-      </class> <!-- Newpackage.Practice -->
-      <class name="Newpackage.Excelwrite">
-        <test-method status="PASS" signature="excelwrite()[pri:0, instance:Newpackage.Excelwrite@39aeed2f]" name="excelwrite" duration-ms="871" started-at="2019-03-03T03:19:35Z" finished-at="2019-03-03T03:19:36Z">
+        </test-method> <!-- addextentreport -->
+        <test-method status="PASS" signature="loginOrangeHRM()[pri:2, instance:Newpackage.Extentreports@3bfdc050]" name="loginOrangeHRM" duration-ms="5743" started-at="2019-03-11T00:14:24Z" description="login hrm page " finished-at="2019-03-11T00:14:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- excelwrite -->
-      </class> <!-- Newpackage.Excelwrite -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginOrangeHRM -->
+        <test-method status="PASS" signature="addextentreport(org.testng.ITestResult)[pri:0, instance:Newpackage.Extentreports@3bfdc050]" name="addextentreport" is-config="true" duration-ms="556" started-at="2019-03-11T00:14:30Z" finished-at="2019-03-11T00:14:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginOrangeHRM status=SUCCESS method=Extentreports.loginOrangeHRM()[pri:2, instance:Newpackage.Extentreports@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addextentreport -->
+        <test-method status="PASS" signature="logoutHRM()[pri:3, instance:Newpackage.Extentreports@3bfdc050]" name="logoutHRM" duration-ms="4264" started-at="2019-03-11T00:14:31Z" description="click on welcome admin and logout" finished-at="2019-03-11T00:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutHRM -->
+        <test-method status="PASS" signature="addextentreport(org.testng.ITestResult)[pri:0, instance:Newpackage.Extentreports@3bfdc050]" name="addextentreport" is-config="true" duration-ms="577" started-at="2019-03-11T00:14:35Z" finished-at="2019-03-11T00:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutHRM status=SUCCESS method=Extentreports.logoutHRM()[pri:3, instance:Newpackage.Extentreports@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addextentreport -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:Newpackage.Extentreports@3bfdc050]" name="closebrowser" is-config="true" duration-ms="192" started-at="2019-03-11T00:14:35Z" finished-at="2019-03-11T00:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Newpackage.Extentreports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

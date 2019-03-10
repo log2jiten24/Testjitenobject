@@ -25,5 +25,28 @@
 	<classpathentry kind="lib" path="E:/jar files_selenium/Apachi POI/poi-bin-3.15-20160924/poi-3.15/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="E:/jar files_selenium/Apachi POI/poi-bin-3.15-20160924/poi-3.15/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="E:/jar files_selenium/Apachi POI/poi-bin-3.15-20160924/poi-3.15/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/json-path/3.3.0/json-path-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/rest-assured-all/3.3.0/rest-assured-all-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/rest-assured-all/3.3.0/rest-assured-all-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/rest-assured-common/3.3.0/rest-assured-common-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/io/rest-assured/xml-path/3.3.0/xml-path-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
