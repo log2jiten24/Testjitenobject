@@ -6,7 +6,7 @@
       <class name="Newpackage.Excelwrite"/>
       <class name="Newpackage.Practice"/>
       <class name="Newpackage.Testngpractice"/>
-      <class name="Newpackage.Extentreportpractice"/>
-    </classes>
+      <class name="Newpackage.Extentreports"/>
+       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

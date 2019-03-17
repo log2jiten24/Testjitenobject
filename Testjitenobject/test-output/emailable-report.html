@@ -8,13 +8,98 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">21,105</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">8</td><td class="num">0</td><td class="num">16</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Newpackage.Extentreports</td><td><a href="#m0">loginOrangeHRM</a></td><td rowspan="1">1552223664796</td><td rowspan="1">5743</td></tr><tr class="passedeven"><td><a href="#m1">logoutHRM</a></td><td rowspan="1">1552223671100</td><td rowspan="1">4264</td></tr><tr class="passedeven"><td><a href="#m2">openurl</a></td><td rowspan="1">1552223659583</td><td rowspan="1">4350</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Newpackage.Extentreports</td><td><a href="#m0">setup</a></td><td rowspan="1">1552829929701</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="7">Newpackage.Extentreports</td><td><a href="#m1">addextentreport</a></td><td rowspan="3">1552829929717</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m2">addextentreport</a></td></tr><tr class="skippedeven"><td><a href="#m3">addextentreport</a></td></tr><tr class="skippedeven"><td><a href="#m4">close</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">closebrowser</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">launchbrowser</a></td><td rowspan="2">1552829929701</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m7">launchbrowser</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Newpackage.Excelwrite</td><td><a href="#m8">excelwrite</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">Newpackage.Extentreports</td><td><a href="#m9">loginOrangeHRM</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m10">logoutHRM</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m11">openurl</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td rowspan="1">Newpackage.Practice</td><td><a href="#m12">testmap</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="3">Newpackage.Testngpractice</td><td><a href="#m13">clickontesting</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m14">clickurl</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m15">openurl</a></td><td rowspan="1">1552829929717</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Newpackage.Extentreports#loginOrangeHRM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Newpackage.Extentreports#logoutHRM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Newpackage.Extentreports#openurl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">Newpackage.Extentreports#setup</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Setting up reports and starting</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Newpackage.Extentreports#addextentreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Newpackage.Extentreports#addextentreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Newpackage.Extentreports#addextentreport</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Newpackage.Extentreports#close</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Newpackage.Extentreports#closebrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Newpackage.Extentreports#launchbrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Newpackage.Extentreports#launchbrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Newpackage.Excelwrite#excelwrite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Newpackage.Extentreports#loginOrangeHRM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Newpackage.Extentreports#logoutHRM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Newpackage.Extentreports#openurl</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Newpackage.Practice#testmap</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Newpackage.Testngpractice#clickontesting</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Newpackage.Testngpractice#clickurl</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Newpackage.Testngpractice#openurl</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

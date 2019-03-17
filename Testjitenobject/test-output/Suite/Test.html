@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/8</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 10 01:44:26 AEDT 2019</td>
+<td>Started on:</td><td>Mon Mar 18 00:38:49 AEDT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>31 seconds (31393 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (16 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,107 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Newpackage.Extentreports.setup()'><b>setup</b><br>Test class: Newpackage.Extentreports<br>Test method: launching extent report<br/>
+<a href="#Output-2137211482" onClick='toggleBox("Output-2137211482", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2137211482" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2137211482">
+Setting up reports and starting<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2137211482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2137211482'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Newpackage.Extentreports.launchbrowser()'><b>launchbrowser</b><br>Test class: Newpackage.Extentreports<br>Test method: launching of  chrome browser</td>
+<td></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
+<tr>
+<td title='Newpackage.Extentreports.launchbrowser()'><b>launchbrowser</b><br>Test class: Newpackage.Extentreports<br>Test method: launching of browser</td>
+<td></td>
+<td>0</td>
+<td>Newpackage.Testngpractice@7006c658</td></tr>
+<tr>
+<td title='Newpackage.Extentreports.addextentreport()'><b>addextentreport</b><br>Test class: Newpackage.Extentreports</td>
+<td></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
+<tr>
+<td title='Newpackage.Extentreports.addextentreport()'><b>addextentreport</b><br>Test class: Newpackage.Extentreports</td>
+<td></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
+<tr>
+<td title='Newpackage.Extentreports.addextentreport()'><b>addextentreport</b><br>Test class: Newpackage.Extentreports</td>
+<td></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
+<tr>
+<td title='Newpackage.Extentreports.closebrowser()'><b>closebrowser</b><br>Test class: Newpackage.Extentreports</td>
+<td></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
+<tr>
+<td title='Newpackage.Extentreports.close()'><b>close</b><br>Test class: Newpackage.Extentreports</td>
+<td></td>
+<td>0</td>
+<td>Newpackage.Testngpractice@7006c658</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,44 +175,332 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Newpackage.Testngpractice.clickontesting()'><b>clickontesting</b><br>Test class: Newpackage.Testngpractice<br>Test method: click on testing definition</td>
-<td></td>
-<td>2</td>
-<td>Newpackage.Testngpractice@63d4e2ba</td></tr>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1225373914", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1225373914'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>Newpackage.Testngpractice@7006c658</td></tr>
 <tr>
 <td title='Newpackage.Testngpractice.clickurl()'><b>clickurl</b><br>Test class: Newpackage.Testngpractice<br>Test method: search of testing </td>
-<td></td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1796488937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1796488937'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
 <td>0</td>
-<td>Newpackage.Testngpractice@63d4e2ba</td></tr>
+<td>Newpackage.Testngpractice@7006c658</td></tr>
 <tr>
 <td title='Newpackage.Excelwrite.excelwrite()'><b>excelwrite</b><br>Test class: Newpackage.Excelwrite</td>
-<td></td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1874154700", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1874154700'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
 <td>0</td>
-<td>Newpackage.Excelwrite@33a10788</td></tr>
+<td>Newpackage.Excelwrite@34033bd0</td></tr>
 <tr>
-<td title='Newpackage.Extentreportpractice.loginOrangeHRM()'><b>loginOrangeHRM</b><br>Test class: Newpackage.Extentreportpractice<br>Test method: login hrm page </td>
-<td></td>
-<td>8</td>
-<td>Newpackage.Extentreportpractice@7bb11784</td></tr>
+<td title='Newpackage.Extentreports.loginOrangeHRM()'><b>loginOrangeHRM</b><br>Test class: Newpackage.Extentreports<br>Test method: login hrm page </td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace423031029", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace423031029'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
 <tr>
-<td title='Newpackage.Extentreportpractice.logoutHRM()'><b>logoutHRM</b><br>Test class: Newpackage.Extentreportpractice<br>Test method: click on welcome admin and logout</td>
-<td></td>
-<td>3</td>
-<td>Newpackage.Extentreportpractice@7bb11784</td></tr>
+<td title='Newpackage.Extentreports.logoutHRM()'><b>logoutHRM</b><br>Test class: Newpackage.Extentreports<br>Test method: click on welcome admin and logout</td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace60830820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace60830820'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
 <tr>
 <td title='Newpackage.Testngpractice.openurl()'><b>openurl</b><br>Test class: Newpackage.Testngpractice<br>Test method: open the url</td>
-<td></td>
-<td>1</td>
-<td>Newpackage.Testngpractice@63d4e2ba</td></tr>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1096283470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1096283470'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>Newpackage.Testngpractice@7006c658</td></tr>
 <tr>
-<td title='Newpackage.Extentreportpractice.openurl()'><b>openurl</b><br>Test class: Newpackage.Extentreportpractice<br>Test method: open the url</td>
-<td></td>
-<td>5</td>
-<td>Newpackage.Extentreportpractice@7bb11784</td></tr>
+<td title='Newpackage.Extentreports.openurl()'><b>openurl</b><br>Test class: Newpackage.Extentreports<br>Test method: open orange hrm page</td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace75457651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace75457651'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
+<td>0</td>
+<td>Newpackage.Extentreports@33a10788</td></tr>
 <tr>
 <td title='Newpackage.Practice.testmap()'><b>testmap</b><br>Test class: Newpackage.Practice</td>
-<td></td>
+<td><div><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace895947612", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace895947612'><pre>java.lang.NoClassDefFoundError: com/aventstack/extentreports/reporter/ExtentHtmlReporter
+	at Newpackage.Extentreports.setup(Extentreports.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.TestNG.privateMain(TestNG.java:1330)
+	at org.testng.TestNG.main(TestNG.java:1299)
+Caused by: java.lang.ClassNotFoundException: com.aventstack.extentreports.reporter.ExtentHtmlReporter
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+</pre></div></td>
 <td>0</td>
-<td>Newpackage.Practice@7006c658</td></tr>
+<td>Newpackage.Practice@47fd17e3</td></tr>
 </table><p>
 </body>
 </html>
