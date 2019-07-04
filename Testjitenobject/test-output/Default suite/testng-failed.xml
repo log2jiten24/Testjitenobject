@@ -3,17 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Newpackage.Extentreports">
+      <class name="Newpackage.Excelwrite">
         <methods>
-          <include name="logoutHRM"/>
-          <include name="setup"/>
-          <include name="addextentreport"/>
-          <include name="loginOrangeHRM"/>
-          <include name="closebrowser"/>
-          <include name="launchbrowser"/>
-          <include name="openurl"/>
+          <include name="excelwrite"/>
         </methods>
-      </class> <!-- Newpackage.Extentreports -->
+      </class> <!-- Newpackage.Excelwrite -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

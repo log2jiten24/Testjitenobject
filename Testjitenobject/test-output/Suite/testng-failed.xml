@@ -3,14 +3,36 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
+      <class name="Newpackage.Practice">
+        <methods>
+          <include name="testmap"/>
+        </methods>
+      </class> <!-- Newpackage.Practice -->
       <class name="Newpackage.Testngpractice">
         <methods>
           <include name="launchbrowser"/>
           <include name="close"/>
           <include name="clickurl"/>
+          <include name="openurl"/>
           <include name="clickontesting"/>
         </methods>
       </class> <!-- Newpackage.Testngpractice -->
+      <class name="Newpackage.Excelwrite">
+        <methods>
+          <include name="excelwrite"/>
+        </methods>
+      </class> <!-- Newpackage.Excelwrite -->
+      <class name="Newpackage.Extentreports">
+        <methods>
+          <include name="logoutHRM"/>
+          <include name="setup"/>
+          <include name="addextentreport"/>
+          <include name="loginOrangeHRM"/>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="openurl"/>
+        </methods>
+      </class> <!-- Newpackage.Extentreports -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
